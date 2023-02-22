@@ -8,6 +8,7 @@ local z = {
   base2 = "#202328",
   base3 = "#23272e",
   base4 = "#3f444a",
+  base45 = "#50585a",
   base5 = "#5B6268",
   base6 = "#73797e",
   base7 = "#9ca0a4",
@@ -92,7 +93,7 @@ local syntax = {
   ErrorMsg = { fg = z.red, bg = z.none, bold = true },
   WarningMsg = { fg = z.yellow, bg = z.none, bold = true },
   ModeMsg = { fg = z.fg, bg = z.none, bold = true },
-  MatchParen = { fg = z.none, bg = z.redwine, bold = true },
+  MatchParen = { fg = z.none, bg = "#584058", bold = true },
   NonText = { fg = z.bg1 },
   Whitespace = { fg = z.base4 },
   SpecialKey = { fg = z.bg1 },
@@ -231,7 +232,7 @@ local plugin_syntax = {
 
   dbui_tables = { fg = z.blue },
 
-  CursorWord = { bg = z.base4, underline = false },
+  CursorWord = { bg = z.base45, underline = false },
 
   NvimTreeFolderName = { fg = z.blue },
   NvimTreeRootFolder = { fg = z.red, bold = true },

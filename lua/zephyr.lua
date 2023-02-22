@@ -231,7 +231,7 @@ local plugin_syntax = {
 
   dbui_tables = { fg = z.blue },
 
-  CursorWord = { bg = z.base5, underline = false },
+  CursorWord = { bg = z.base4, underline = false },
 
   NvimTreeFolderName = { fg = z.blue },
   NvimTreeRootFolder = { fg = z.red, bold = true },

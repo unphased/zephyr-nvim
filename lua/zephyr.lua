@@ -105,6 +105,7 @@ local syntax = {
   WildMenu = { fg = z.bg1, bg = z.green },
   StatusLine = { fg = z.base8, bg = z.base2 },
   StatusLineNC = { fg = z.grey, bg = z.base2 },
+  TabLineFill = { bg = z.bg, fg = z.black },
   Question = { fg = z.yellow },
   NormalFloat = { fg = z.base8, bg = z.bg_highlight },
   Tabline = { fg = z.base6, bg = z.base2 },

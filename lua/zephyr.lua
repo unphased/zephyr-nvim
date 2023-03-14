@@ -109,7 +109,7 @@ local syntax = {
   Question = { fg = z.yellow },
   NormalFloat = { fg = z.base8, bg = z.bg_highlight },
   Tabline = { fg = z.base6, bg = z.base2 },
-  TabLineSel = { fg = z.fg, bg = z.blue },
+  TabLineSel = { fg = z.base2, bg = z.violet },
   SpellBad = { fg = z.red, bg = z.none, undercurl = true },
   SpellCap = { fg = z.blue, bg = z.none, undercurl = true },
   SpellLocal = { fg = z.cyan, bg = z.none, undercurl = true },

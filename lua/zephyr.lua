@@ -230,8 +230,6 @@ local plugin_syntax = {
 
   dbui_tables = { fg = z.blue },
 
-  CursorWord = { bg = z.base45, underline = false },
-
   NvimTreeFolderName = { fg = z.blue },
   NvimTreeRootFolder = { fg = z.red, bold = true },
   NvimTreeSpecialFile = { fg = z.fg, bg = z.none },

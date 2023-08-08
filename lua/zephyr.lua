@@ -81,7 +81,7 @@ local syntax = {
   CursorIM = { bg = z.none, reverse = true },
   CursorColumn = { bg = z.bg_highlight },
   CursorLine = { bg = z.bg_highlight },
-  LineNr = { fg = z.base4 },
+  LineNr = { fg = z.base5 },
   qfLineNr = { fg = z.cyan },
   CursorLineNr = { fg = z.blue },
   DiffAdd = { fg = z.black, bg = z.dark_green },

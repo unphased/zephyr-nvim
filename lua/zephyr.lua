@@ -17,7 +17,7 @@ local z = {
   bg = "#10141a",
   bg1 = "#504945",
   bg_popup = "#3E4556",
-  bg_highlight = "#2E323C",
+  bg_highlight = "#24272F",
 
   fg = "#bbc2cf",
   fg_alt = "#5B6268",

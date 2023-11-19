@@ -104,6 +104,9 @@ local syntax = {
   PmenuThumb = { fg = z.violet, bg = z.light_green },
   WildMenu = { fg = z.bg1, bg = z.green },
   StatusLine = { fg = z.base8, bg = z.status_bar_color },
+
+  StatusLineLineNo = { fg = z.base8, bg = z.status_bar_color, bold = true },
+
   StatusLineNC = { fg = z.grey, bg = z.base4 },
   TabLineFill = { bg = z.bg, fg = z.black },
   Question = { fg = z.yellow },

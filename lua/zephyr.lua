@@ -39,6 +39,8 @@ local z = {
   brown = "#c78665",
   black = "#000000",
 
+  status_bar_color = "#1a4168",
+
   bracket = "#80A0C2",
   none = "NONE",
 }
@@ -101,8 +103,8 @@ local syntax = {
   PmenuSbar = { bg = z.base4 },
   PmenuThumb = { fg = z.violet, bg = z.light_green },
   WildMenu = { fg = z.bg1, bg = z.green },
-  StatusLine = { fg = z.base8, bg = z.base2 },
-  StatusLineNC = { fg = z.grey, bg = z.base2 },
+  StatusLine = { fg = z.base8, bg = z.status_bar_color },
+  StatusLineNC = { fg = z.grey, bg = z.base4 },
   TabLineFill = { bg = z.bg, fg = z.black },
   Question = { fg = z.yellow },
   NormalFloat = { fg = z.base8, bg = z.bg_highlight },

@@ -14,7 +14,7 @@ local z = {
   base7 = "#9ca0a4",
   base8 = "#b1b1b1",
 
-  bg = "#10141a",
+  bg = "#050a13",
   bg1 = "#504945",
   bg_popup = "#3E4556",
   bg_highlight = "#24272F",

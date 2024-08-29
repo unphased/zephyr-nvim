@@ -225,10 +225,6 @@ local plugin_syntax = {
   GitSignsChangeLn = { bg = z.bg_highlight },
   GitSignsDeleteLn = { bg = z.bg1 },
 
-  SignifySignAdd = { fg = z.dark_green },
-  SignifySignChange = { fg = z.blue },
-  SignifySignDelete = { fg = z.red },
-
   dbui_tables = { fg = z.blue },
 
   NvimTreeFolderName = { fg = z.blue },

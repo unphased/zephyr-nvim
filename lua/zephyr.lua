@@ -240,29 +240,29 @@ local plugin_syntax = {
   TelescopeMultiSelection = { fg = z.teal },
 
   -- nvim v0.6.0+
-  DiagnosticSignError = { fg = z.red },
-  DiagnosticSignWarn = { fg = z.yellow },
-  DiagnosticSignInfo = { fg = z.blue },
-  DiagnosticSignHint = { fg = z.cyan },
+  -- DiagnosticSignError = { fg = z.red },
+  -- DiagnosticSignWarn = { fg = z.yellow },
+  -- DiagnosticSignInfo = { fg = z.blue },
+  -- DiagnosticSignHint = { fg = z.cyan },
 
-  DiagnosticError = { fg = z.red },
-  DiagnosticWarn = { fg = z.yellow },
-  DiagnosticInfo = { fg = z.blue },
-  DiagnosticHint = { fg = z.cyan },
+  -- DiagnosticError = { fg = z.red },
+  -- DiagnosticWarn = { fg = z.yellow },
+  -- DiagnosticInfo = { fg = z.blue },
+  -- DiagnosticHint = { fg = z.cyan },
 
   LspReferenceRead = { bg = z.bg_highlight, bold = true },
   LspReferenceText = { bg = z.bg_highlight, bold = true },
   LspReferenceWrite = { bg = z.bg_highlight, bold = true },
 
-  DiagnosticVirtualTextError = { fg = z.red },
-  DiagnosticVirtualTextWarn = { fg = z.yellow },
-  DiagnosticVirtualTextInfo = { fg = z.blue },
-  DiagnosticVirtualTextHint = { fg = z.cyan },
+  -- DiagnosticVirtualTextError = { fg = z.red },
+  -- DiagnosticVirtualTextWarn = { fg = z.yellow },
+  -- DiagnosticVirtualTextInfo = { fg = z.blue },
+  -- DiagnosticVirtualTextHint = { fg = z.cyan },
 
-  DiagnosticUnderlineError = { undercurl = true, sp = z.red },
-  DiagnosticUnderlineWarn = { undercurl = true, sp = z.yellow },
-  DiagnosticUnderlineInfo = { undercurl = true, sp = z.blue },
-  DiagnosticUnderlineHint = { undercurl = true, sp = z.cyan },
+  -- DiagnosticUnderlineError = { undercurl = true, sp = z.red },
+  -- DiagnosticUnderlineWarn = { undercurl = true, sp = z.yellow },
+  -- DiagnosticUnderlineInfo = { undercurl = true, sp = z.blue },
+  -- DiagnosticUnderlineHint = { undercurl = true, sp = z.cyan },
 
   -- nvim-cmp
   CmpItemAbbr = { fg = z.fg },

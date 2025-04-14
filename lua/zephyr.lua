@@ -86,6 +86,7 @@ local syntax = {
   LineNr = { fg = z.base5 },
   qfLineNr = { fg = z.cyan },
   CursorLineNr = { fg = z.blue },
+  FoldColumn = { fg = z.grey },
   DiffAdd = { fg = z.black, bg = z.dark_green },
   DiffChange = { fg = z.black, bg = z.yellow },
   DiffDelete = { fg = z.black, bg = z.red },

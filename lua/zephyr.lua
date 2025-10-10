@@ -21,6 +21,7 @@ local z = {
 
   fg = "#bbc2cf",
   fg_alt = "#5B6268",
+  fg_alt2 = "#8B949b",
 
   red = "#e95678",
   redwine = "#d16d9e",
@@ -109,7 +110,7 @@ local syntax = {
   TabLineFill = { bg = z.bg, fg = z.black },
   Question = { fg = z.yellow },
   NormalFloat = { fg = z.base8, bg = z.bg_highlight },
-  Tabline = { fg = z.base6, bg = z.base1 },
+  Tabline = { fg = z.fg_alt2, bg = z.base1 },
   TabLineSel = { fg = z.fg, bg = z.base4 },
   SpellBad = { fg = z.red, bg = z.none, undercurl = true },
   SpellCap = { fg = z.blue, bg = z.none, undercurl = true },
